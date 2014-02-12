@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+    color:#333;
+}
+ul, li, ol {
+    list-style: none;
+}
+
+
+/* GENERAL STYLES */
+
+html, body {
+    height:auto;
+}
+#wrapper {
+    width:100%;
+    height:auto;
+}
+#bg {
+    position: fixed;
+    z-index: -100;
+    width:100%;
+    height:100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#nav {
+    position: relative;
+    width:90%;
+    left:5%;
+    padding-top:20px;
+    height:70px;
+}
+#nav li {
+    width:100px;
+    height:100%;
+    text-align: center;
+    line-height:70px;
+    color:white;
+}
+#nav li:hover {
+    background-color:#f1c40f;
+}
+#content {
+    position: relative;
+    width:90%;
+    left:5%;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    padding-top:20px;
+    top:20px;
+}
+.headline {
+    width:100%;
+    text-align:center;
+    height:100px;
+    line-height: 100px;
+}
+.innerContent {
+    position: relative;
+    width:95%;
+    left:2.5%;
+}
+.grid50 {
+    width:49.9%;
+    float:left;
+    min-height:350px;
+    padding: 20px 0;
+}
+.gridEle {
+    width:90%;
+    position: relative;
+    left: 5%;
+}
+.gridBreak {
+    clear:both;
+}
+#download {
+    display: block;
+    width:200px;
+    height:70px;
+    background-color: #102C3A;
+    margin:0 auto;
+    margin-top:30px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    line-height:70px;
+    border-radius: 0px;
+    -webkit-transition: background-color 0.5s, border-radius 0.5s, -webkit-transform 0.5s;
+    transition: background-color 0.5s, border-radius 0.5s, transform 0.5s;
+}
+#download:hover {
+    background-color:#1F444A;
+    border-radius: 8px;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.codeBox {
+    width: 90%;
+    height:auto;
+    display:block;
+    background-color: #e5e5e5;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+}
+#footer {
+    width: 90%;
+    left:5%;
+    position: relative;
+    margin-top: 20px;
+    height:100px;
+    text-align: center;
+}
+#footer a, #footer i {
+    color:white;
+    text-decoration: none;
+}
